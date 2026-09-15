@@ -1,0 +1,30 @@
+[
+  {
+    "label": "GPT-4o (zero-shot)",
+    "n": 30,
+    "field_precision": 0.6492,
+    "field_recall": 0.5375,
+    "field_f1": 0.5881,
+    "output_exact_match_rate": 0.0,
+    "f1_ci": [
+      0.5431,
+      0.6264
+    ],
+    "json_validity": 1.0,
+    "avg_latency_s": 4.9
+  },
+  {
+    "label": "Qwen2.5-7B-Instruct (zero-shot, no fine-tuning)",
+    "n": 30,
+    "field_precision": 0.5935,
+    "field_recall": 0.4704,
+    "field_f1": 0.5248,
+    "output_exact_match_rate": 0.0,
+    "f1_ci": [
+      0.4779,
+      0.5702
+    ],
+    "json_validity": 0.9667,
+    "avg_latency_s": 27.909
+  }
+]
